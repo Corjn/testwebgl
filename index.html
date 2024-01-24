@@ -88,6 +88,13 @@
       };
       document.body.appendChild(script);
     </script>
+
+        <script>
+        document.getElementById('unity-container').addEventListener('wheel', function(event) {
+            event.stopPropagation();
+        }, true);
+    </script>
+
   </body>
 </html>
 
